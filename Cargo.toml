@@ -1,0 +1,15 @@
+[package]
+name = "paste_clipboard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk4 = "0.9"  # Use older compatible version
+glib = "0.20"  # Match with gtk4 version
+configparser = "3.0"
+directories = "5.0"
+libc = "0.2"
+
+[build-dependencies]
+pkg-config = "0.3.25"
+system-deps = "1.3"
